@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --color-neon-green: #39ff14;
+  --color-neon-blue: #00f3ff;
+  --color-neon-pink: #ff00ff;
+  --color-bg-dark: #050505;
+  --color-card-dark: #111111;
+  --color-text-main: #ffffff;
+  --color-text-dim: #888888;
+  
+  --font-display: "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-text-main font-display;
+  }
+}
